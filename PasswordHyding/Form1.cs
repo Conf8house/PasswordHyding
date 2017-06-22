@@ -26,5 +26,10 @@ namespace WindowsFormsApplication1
             textBox1.TextAlign = HorizontalAlignment.Center;
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = textBox1.Text;
+        }
     }
 }
