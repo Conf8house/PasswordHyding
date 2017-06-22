@@ -16,5 +16,15 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.Text = "Password hyding";
+            label1.Text = null;
+            textBox1.Clear();
+            textBox1.PasswordChar = '*';
+            textBox1.TextAlign = HorizontalAlignment.Center;
+
+        }
     }
 }
